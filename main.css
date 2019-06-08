@@ -2,12 +2,11 @@ html, body {
   padding: 0px;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
 }
 nav{
   display: flex;
-  background-color: #013243;
-  padding: 10px;
+  background-color: black;
+  padding: 5px;
   color: white;
   justify-content: space-between;
   align-items: center;
@@ -26,4 +25,31 @@ nav li a {
 nav li a:hover{
   color: black;
 }
-
+/* main section  */
+  /* background-image: url(./images/mern.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+.mainSection {
+  text-align: center;
+  padding: 10%; 
+  background-color: #0F0F0F;
+  color: white;
+}
+.mainSection h3 {
+  color: darkred;
+}
+.mainSection button {
+  padding: 7px;
+  border: solid 1px;
+  border-color: white;
+  color: white;
+  background-color:  #0F0F0F;
+}
+.aboutMe{
+  padding: 5%;
+  display: flex;
+}
+.profileImage{
+  border-radius: 50%;
+}
