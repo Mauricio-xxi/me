@@ -25,6 +25,9 @@ nav li a {
 nav li a:hover{
   color: black;
 }
+.sectionTitle{
+  text-align: center;
+}
 /* main section  */
   /* background-image: url(./images/mern.png);
   background-repeat: no-repeat;
