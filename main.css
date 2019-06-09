@@ -53,3 +53,9 @@ nav li a:hover{
 .profileImage{
   border-radius: 50%;
 }
+
+.cards{
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+}
