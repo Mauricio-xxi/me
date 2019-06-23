@@ -14,10 +14,10 @@
     </div>
     <div class="navOptions">
       <ul >
-        <li><a href="">About Me</a></li>
-        <li><a href="">Skills</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -25,12 +25,12 @@
     <h3>Hello, World</h3>
     <h1>I'm Álvaro Camacho</h1>
     <h2>Full Stack Developer | Business Administration</h2>
-    <button>More About Me</button>
+    <!-- <button>More About Me</button> -->
   </div>
   <div>
     <h2 class="sectionTitle">About Me</h2>
-    <div class="aboutMe">
-        <section>
+    <div class="aboutMe" id="aboutMe">
+        <section class="infoSection">
           <div>
             <h4>Objective</h4>
               <p>
@@ -48,7 +48,7 @@
               </p>
             </div>
         </section>
-          <div>
+          <div class="profileSection">
             <div ><img class="profileImage" src="./images/profile.jpeg" alt="ProfileImage"></div>
             <p><strong>Name:</strong> Álvaro M. Camacho D.</p>
             <p><strong>Address:</strong> Barcelona</p>
@@ -57,12 +57,19 @@
     </div>
   </div>
   <div>
-    <h2 class="sectionTitle">Skills</h2>
+    <h2 class="sectionTitle" id="skills">Skills</h2>
     <div class="cards">
       <div class="card">
         <div class="content">
           <img class="logoIcons" src="./images/mongodb-logo.png" alt="mongologo">
           <h4>MongoDB</h4>
+          <p></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <img class="logoIcons" src="./images/express2.png" alt="nodelogo">
+          <h4>ExpressJS</h4>
           <p></p>
         </div>
       </div>
@@ -82,16 +89,16 @@
       </div>
     </div>
   </div>
-  <div>
+  <!-- <div>
     <img class="" src="./images/mern.png" alt="">
+  </div> -->
+  <div class="projectsSection" id="projects">
+      <h2 class="sectionTitle">Projects</h2>
   </div>
-  <div class="contactSection">
-    <form action="">
-      
-    </form>
-  </div>
-
   <footer>
+        <form id="contact" action="mailto:alvarocamachodavila@gmail.com">
+          <input type="submit" value="Contact">
+        </form>
     <p>Made with love by Acamacho</p>
   </footer>
   
