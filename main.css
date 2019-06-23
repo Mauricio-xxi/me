@@ -10,6 +10,8 @@ nav{
   color: white;
   justify-content: space-between;
   align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 nav ul {
   display: flex;
@@ -36,7 +38,8 @@ nav li a:hover{
 .mainSection {
   text-align: center;
   padding: 10%; 
-  background-color: #0F0F0F;
+  /* background-color: #0F0F0F; */
+  background-image: url("./images/code.png");
   color: white;
 }
 .mainSection h3 {
@@ -50,7 +53,7 @@ nav li a:hover{
   background-color:  #0F0F0F;
 }
 .aboutMe{
-  padding: 5%;
+  justify-content: space-around;
   display: flex;
 }
 .profileImage{
@@ -60,10 +63,39 @@ nav li a:hover{
 .cards{
   display: flex;
   padding: 5%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .logoIcons{
   height: 150px;;
+}
+
+.infoSection{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.profileSection{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+form{
+  display: block;
+  padding: 2em;
+}
+
+input[type=submit] {
+  font-size: 1em;
+  width: 100%;
+  background-color: #0F0F0F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #020202;
 }
 
 footer{
